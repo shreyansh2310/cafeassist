@@ -1,0 +1,244 @@
+
+
+body{
+    background-image: url('../image/backgroundcoffee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    color: whitesmoke;
+}
+
+.top
+{
+    margin-top:0%;
+    width: 100%;
+    height: 5%;
+    
+}
+.top marquee{
+    font-size:20px;
+}
+ .logo
+ {
+     width: 35%;
+     
+     
+ }
+ .logo img{
+     border-radius: 30px;
+ }
+ .yamuna{
+     width: 30%;
+    
+     text-align: center;
+ }
+
+ .yamuna img{
+    border-radius: 30px;
+
+ }
+ .date{
+    width: 35%;
+  
+    text-align: center;
+    color: black; 
+ }
+
+ .date h1{
+     font-size: 20px;
+     color:white;   
+ }
+.header{
+  
+    display: flex;
+}
+
+.navbar{
+    background-color: rgba(44, 44, 44, 0.5);
+   border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    margin:0%;
+}
+
+.navbar li{
+    padding: 20px;
+    margin:auto;
+   
+    font-size: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+.navbar li:hover{
+    background-color: #fcbd34;
+  
+}
+.navbar a:hover{
+    color:#2c2c2c;
+    
+}
+
+.slide{
+    font-size: 40px;
+    color:white;
+    margin-top: 10px;
+    
+}
+.slide marquee{
+    margin-left: 150px;
+}
+
+.pizza{
+    border-radius:20px;
+    background-color: rgba(44, 44, 44, 0.5);
+    margin-top:20px;
+
+}
+
+
+.pizza{
+    width: 80%;
+    margin:auto;
+    
+}
+
+.pic h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    padding: 50px;
+    margin-top:10%; 
+    
+}
+
+.item{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    
+   margin-left: 60px;
+}
+
+
+.pbox{
+    
+    background-color: rgba(44, 44, 44, .7);
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.pbox:hover{
+    background-color: #fcbd34;
+    color:#2c2c2c;
+}
+
+
+
+
+
+.footer{
+    
+    width: 90%;
+    background-color:rgba(44, 44, 44, .5);
+
+    padding: 10px;
+    margin: 30px auto;
+    font-size: 20px;
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+.lfooter{
+    
+    width: 90%;
+    background-color:rgba(44, 44, 44, .7);
+    text-align:center;
+    padding: 10px;
+    margin: auto;
+    font-size: 10px;
+}
+
+.fleft{
+   width: 40%;
+   
+}
+
+.fright{
+    margin-left: 5px;
+    
+    width: 60%;
+
+}
+.margin{
+    width: 100%;
+    height: 100px;
+    
+}
+
+.whatsapp img{
+    border-radius: 60px;
+}
+
+.follow{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.facebook img{
+    border-radius: 50px;
+    margin-right:10px ;
+}
+
+.instagram img{
+    border-radius: 50px;
+}
+
+.form input{
+    background-color: rgba(44, 44, 44, .7);
+    padding: 10px;
+    width: 300px;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 5px;
+    color:white;
+}
+
+.form textarea{
+    background-color: rgba(44, 44, 44, .7);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px;
+
+}
+
+.form button{
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgba(44, 44, 44, .8);
+     margin-bottom: 5px;
+
+}
+
+.form button:hover{
+    background-color: #fcbd34;
+}
